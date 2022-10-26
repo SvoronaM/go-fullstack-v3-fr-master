@@ -18,5 +18,6 @@ app.use((req, res, next) => {
     next();
 });
 
+app.use('/api/stuff', stuffRoutes);
 
 module.exports = app;
