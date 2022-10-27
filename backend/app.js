@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
 const stuffRoutes = require('./routes/stuff');
+const userRoutes = require('./routes/user');
 
 mongoose.connect('mongodb+srv://OCR_1:LbwAITYsMCv16fZB@cluster0.xjpuzc3.mongodb.net/?retryWrites=true&w=majority',
     { useNewUrlParser: true,
